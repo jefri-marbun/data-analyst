@@ -1,0 +1,22 @@
+<title>Kinerja Driver</title>
+
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+<h2>
+ Data CSV
+</h2>
+<br>
+
+<div class="container">
+  {% for datas in data %}{{datas}}{% endfor %}
+
+
+</div>
+
+
+
+{% endblock content %}

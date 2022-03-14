@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+body {
+  background: #f7f7f7;
+  font-family: "Open Sans";
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body .pen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -65px 0 0 -226px;
+}
+body .pen h1 {
+  position: relative;
+  margin: 0 auto;
+  color: #333;
+  font-size: 5em;
+  font-weight: 600;
+}
+body .pen h1 span {
+  color: #3498db;
+}
+body .pen h2 {
+  position: relative;
+  color: #555;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

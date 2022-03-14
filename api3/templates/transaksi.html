@@ -1,0 +1,42 @@
+<title>Transaksi Driver</title>
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>
+  Transaksi
+</h2>
+<br>
+
+<div class="container">
+    <table class="table" border="1">
+        <thead>
+          <tr>
+            <th style="text-align: center;" scope="col">ID Transaksi</th>
+            <th style="text-align: center;" scope="col">Driver</th>
+            <th style="text-align: center;" scope="col">Status</th>
+
+          </tr>
+        </thead>
+        <tbody>
+        {% for datas in data %}
+          <tr>
+
+            <td>{{datas.nskrequest}}</td>
+            <td style="text-align: center;">{{datas.anama_driver}}</td>
+            <td style="text-align: center;">{{datas.astatus}}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+
+</div>
+
+
+
+
+{% endblock content %}
+    
+
